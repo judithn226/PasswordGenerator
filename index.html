@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet"
 </head>
 <body>
-    <div class="jumbotron" style="background-color: lightpink;">
-        <h1 class="display-4">Password Generator</h1>
-    </div>
-    <div class="card">
-        <div class="card-header">
-            <h1>Generate a Password</h1>
+    <div class="container">
+        <div class="jumbotron" style="background-color: lightpink;">
+            <h1 class="display-4">Password Generator</h1>
+        </div>
+        <div class="card">
+         <div class="card-header">
+            <h1>Generate a Password, Silly!</h1>
         </div>
         <div class="card-body">
             <textarea readonly id="password"
@@ -22,11 +23,14 @@
             aria-label="Generated Password"></textarea>
         </div>
         <div class="card-footer">
-            <button id="generate" class="btn">Generate Password</button>
-
+            <button id="generate" class="btn" style="background-color: plum;">Generate Password</button>
+        </div>
+        <style>
+            #resizable { width: 150px; height: 150px; padding: 0.5em; }
+            #resizable h3 { text-align: center; margin: 0; }
+            </style>
         </div>
     </div>
-
     <script src="password.js"></script>
 </body>
 </html>

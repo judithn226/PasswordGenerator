@@ -2,8 +2,14 @@
     font-family: 'Red Rose', cursive; margin: 10px auto; text-align: center;
 }
 .card-header {
-    font-family: 'Red Rose', cursive; margin: 10px auto; text-align: center;
+    font-family: 'Red Rose', cursive; text-align: center; float: right;
 }
 .card-footer{
-    font-family: 'Red Rose', cursive; margin: 10px auto; text-align: center;
+    font-family: 'Red Rose', cursive; text-align: center; float: right;
+}
+.card-body{
+    font-family: 'Red Rose', cursive; text-align: center; float: right;
+}
+#password{
+    border-style: dotted;
 }
